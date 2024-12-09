@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void hacerSolicitud(final TextView txtRespuesta){
         //establecer url
-        String url = "http://10.10.13.65:3001/mendez/";
+        String url = "http://10.10.13.65:3001/mendezRojas/";
         // Crear la solicitud HTTP usando Volley
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
